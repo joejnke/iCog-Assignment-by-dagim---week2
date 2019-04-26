@@ -1,0 +1,31 @@
+Date: April 21, 2019
+--------------------
+Linux
+-----
+apropos - shows the package name(tool) for the asked?
+usermode
+pidof
+
+
+Assignment
+-----------
+findf
+a bash shortcut to find files starting from current directory
+input: file name(it might contain wildcards(*))
+output: display (list) file full path 
+
+findd
+a bash shortcut to find directories starting from current directory
+input: file name(it might contain wildcards(*))
+output: display (list) file full path
+
+finde
+a bash shortcut to find executables starting from current directory
+input: file name(it might contain wildcards(*))
+output: display (list) file full path 
+
+findfi
+
+hint
+----
+use apropos and man
