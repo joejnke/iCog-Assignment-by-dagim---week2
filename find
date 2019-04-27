@@ -2,17 +2,17 @@
 
 if [ "$1" = "findf" ] #find file with the second argument as the name of the file to be searched for.
 then
-	find -type f -name $2
-	echo $2
+	find $2 -type f
+
 elif [ "$1" = "findd" ] #find directory with the second argument as the name of the directory to be searched for.
 then
-	find -type d -name $2
+	find $2 -type d
 
 elif [ "$1" = "finde" ] #find executable with the second argument as the name of the executable to be searched for.
 then
-	find -executable -name $2
+	find $2 -executable
 
-elif [ "$1" = "finfi" ] #find file with the second argument as the name of the file to be searched for in a case-insensitive mode.
+elif [ "$1" = "findfi" ] #find file with the second argument as the name of the file to be searched for in a case-insensitive mode.
 then
 	find -iname $2 -type f
 
